@@ -2,10 +2,6 @@
 param vmName string = 'LocalBox-Client'
 
 @description('The size of the Virtual Machine')
-@allowed([
-  'Standard_E32s_v5'
-  'Standard_E32s_v6'
-])
 param vmSize string = 'Standard_E32s_v5'
 
 @description('Username for the Virtual Machine')

@@ -47,10 +47,6 @@ param vmAutologon bool = true
 param natGatewayName string = 'LocalBox-NatGateway'
 
 @description('The size of the Virtual Machine')
-@allowed([
-  'Standard_E32s_v5'
-  'Standard_E32s_v6'
-])
 param vmSize string = 'Standard_E32s_v6'
 
 @description('Option to enable spot pricing for the LocalBox Client VM')
